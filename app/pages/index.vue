@@ -36,7 +36,7 @@
     <section class="px-4 max-w-6xl mx-auto mb-12">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
         <!-- Left Column - Phone Mockup -->
-        <div class="bg-secondary rounded-tl-2xl rounded-bl-2xl rounded-tr-lg rounded-br-lg p-6 flex flex-col items-center justify-center min-h-[400px]">
+        <div class="bg-secondary rounded-tl-2xl rounded-tr-2xl rounded-bl-lg rounded-br-lg md:rounded-tr-lg md:rounded-bl-2xl p-6 flex flex-col items-center justify-center min-h-[400px]">
           <div class="w-48 h-80 bg-gray-900 rounded-[2.5rem] shadow-xl flex items-center justify-center border-4 border-gray-800">
             <div class="w-44 h-72 bg-white rounded-[2rem] flex items-center justify-center">
               <span class="text-primary text-2xl font-bold">Yodl</span>
@@ -89,7 +89,7 @@
         </div>
 
         <!-- Right Column - Phone Mockup -->
-        <div class="bg-secondary rounded-tr-2xl rounded-br-2xl rounded-tl-lg rounded-bl-lg p-6 flex flex-col items-center justify-center min-h-[400px]">
+        <div class="bg-secondary rounded-tl-lg rounded-tr-lg rounded-bl-2xl rounded-br-2xl md:rounded-tr-2xl md:rounded-bl-lg p-6 flex flex-col items-center justify-center min-h-[400px]">
           <div class="w-48 h-80 bg-gray-900 rounded-[2.5rem] shadow-xl flex items-center justify-center border-4 border-gray-800">
             <div class="w-44 h-72 bg-white rounded-[2rem] flex items-center justify-center">
               <svg class="w-16 h-16 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
