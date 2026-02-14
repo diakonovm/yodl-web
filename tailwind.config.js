@@ -6,6 +6,9 @@ export default {
         primary: '#FF385C',
         secondary: '#FFF5F8',
       },
+      fontFamily: {
+        sans: ['Manrope', 'system-ui', 'sans-serif'],
+      },
     },
   },
   plugins: [],

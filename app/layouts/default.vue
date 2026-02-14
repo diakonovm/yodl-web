@@ -13,13 +13,22 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-gray-200 py-8 px-4">
-      <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-sm text-gray-500">&copy; 2025 Yodl. All rights reserved.</p>
-        <nav class="flex gap-6">
+    <footer class="border-t border-gray-200 py-12 px-6">
+      <div class="max-w-4xl mx-auto flex justify-between">
+        <!-- Left Column -->
+        <div class="flex flex-col gap-3">
+          <NuxtLink to="/" class="mb-6">
+            <YodlLogo :width="80" :height="32" class="text-gray-900" />
+          </NuxtLink>
           <NuxtLink to="/terms" class="text-sm text-gray-500 hover:text-gray-900">Terms of Service</NuxtLink>
           <NuxtLink to="/privacy" class="text-sm text-gray-500 hover:text-gray-900">Privacy Policy</NuxtLink>
-        </nav>
+          <a href="mailto:humans@yodl.chat" class="text-sm text-gray-500 hover:text-gray-900">humans@yodl.chat</a>
+          <p class="text-sm text-gray-500 mt-6">&copy; {{ new Date().getFullYear() }} Yodl</p>
+        </div>
+        <!-- Right Column -->
+        <div class="flex flex-col justify-end">
+          <span class="text-sm text-gray-500">142857</span>
+        </div>
       </div>
     </footer>
   </div>
