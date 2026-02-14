@@ -66,11 +66,11 @@
           <div class="bg-primary rounded-lg p-6 text-white">
             <div class="flex justify-around text-center">
               <div>
-                <div class="text-2xl font-bold">10K+</div>
+                <div class="text-2xl font-bold">100K+</div>
                 <div class="text-sm opacity-80">Users</div>
               </div>
               <div>
-                <div class="text-2xl font-bold">1M+</div>
+                <div class="text-2xl font-bold">25M+</div>
                 <div class="text-sm opacity-80">Messages</div>
               </div>
               <div>
