@@ -22,6 +22,7 @@
           </NuxtLink>
           <NuxtLink to="/terms" class="text-sm text-gray-500 hover:text-gray-900">Terms of Service</NuxtLink>
           <NuxtLink to="/privacy" class="text-sm text-gray-500 hover:text-gray-900">Privacy Policy</NuxtLink>
+          <NuxtLink to="/faq" class="text-sm text-gray-500 hover:text-gray-900">FAQ</NuxtLink>
           <a href="mailto:humans@yodl.chat" class="text-sm text-gray-500 hover:text-gray-900">humans@yodl.chat</a>
           <p class="text-sm text-gray-500 mt-6">&copy; {{ new Date().getFullYear() }} Yodl</p>
         </div>

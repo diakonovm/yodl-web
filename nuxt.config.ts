@@ -5,6 +5,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   app: {
     head: {
+      title: 'Yodl',
+      meta: [
+        { name: 'description', content: 'Meet real people around the world and practice any language.' }
+      ],
       link: [
         {
           rel: 'preconnect',
