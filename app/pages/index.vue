@@ -19,13 +19,13 @@
       </div>
 
       <!-- Headline -->
-      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-12">
         <!-- Mobile -->
-        <span class="block md:hidden">Meet real people</span>
-        <span class="block md:hidden">around the 🌍 and practice any language.</span>
+        <span class="block md:hidden">Meet <span class="highlight">real people<span class="highlight-bg"></span></span></span>
+        <span class="block md:hidden">around the 🌍 and practice <span class="marker text-primary">any language<span class="marker-line"></span></span></span>
         <!-- Desktop -->
-        <span class="hidden md:block">Meet real people around the 🌍</span>
-        <span class="hidden md:block">and practice any language.</span>
+        <span class="hidden md:block">Meet <span class="highlight">real people<span class="highlight-bg"></span></span> around the 🌍</span>
+        <span class="hidden md:block">and practice <span class="marker text-primary">any language<span class="marker-line"></span></span></span>
       </h2>
       <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
         Connect with native speakers, exchange text and audio messages 💬, and help each other learn with corrections and translations ✨
@@ -133,3 +133,40 @@
     </section>
   </div>
 </template>
+
+<style>
+.highlight {
+  position: relative;
+  isolation: isolate;
+  white-space: nowrap;
+}
+.highlight-bg {
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  right: -8px;
+  height: 70%;
+  transform: translateY(-50%);
+  background-image: url('/highlight.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: -1;
+}
+.marker {
+  position: relative;
+  white-space: nowrap;
+}
+.marker-line {
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  right: 0;
+  height: 18px;
+  background-image: url('/underline-marker.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+</style>
