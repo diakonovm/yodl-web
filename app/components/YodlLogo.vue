@@ -24,13 +24,30 @@ defineProps({
 <style scoped>
 .logo-dot {
   animation: pulse-glow 2s ease-in-out infinite;
+  -webkit-animation: pulse-glow 2s ease-in-out infinite;
+  will-change: filter;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+@-webkit-keyframes pulse-glow {
+  0%, 100% {
+    -webkit-filter: drop-shadow(0 0 0px #FF385C);
+    filter: drop-shadow(0 0 0px #FF385C);
+  }
+  50% {
+    -webkit-filter: drop-shadow(0 0 4px #FF385C);
+    filter: drop-shadow(0 0 4px #FF385C);
+  }
 }
 
 @keyframes pulse-glow {
   0%, 100% {
+    -webkit-filter: drop-shadow(0 0 0px #FF385C);
     filter: drop-shadow(0 0 0px #FF385C);
   }
   50% {
+    -webkit-filter: drop-shadow(0 0 4px #FF385C);
     filter: drop-shadow(0 0 4px #FF385C);
   }
 }
