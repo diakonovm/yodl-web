@@ -55,7 +55,7 @@
         <div class="bg-secondary rounded-tl-3xl rounded-tr-3xl rounded-bl-lg rounded-br-lg md:rounded-tr-lg md:rounded-bl-3xl p-6 flex flex-col items-center justify-center min-h-[400px] border-2 border-primary shadow-md shadow-primary/25">
           <div class="w-48 h-80 bg-gray-900 rounded-[2.5rem] shadow-xl flex items-center justify-center border-4 border-gray-800">
             <div class="w-44 h-72 bg-white rounded-[2rem] flex items-center justify-center">
-              <span class="text-primary text-2xl font-bold">Yodl</span>
+              <YodlLogo :width="120" :height="48" class="text-gray-900" />
             </div>
           </div>
           <p class="mt-6 text-center text-gray-700 font-medium">
