@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge_ios": "iPhone 版提供中",
+    "badge_android": "Android 版近日公開",
+    "headline_meet": "出会おう、",
+    "headline_real_people": "本物の人々",
+    "headline_around": "に 🌍 中で",
+    "headline_practice": "そして練習しよう、",
+    "headline_any_language": "どんな言語も",
+    "subhead": "ネイティブスピーカーとつながり、テキストや音声メッセージを送り合い 💬、添削や翻訳でお互いに学び合おう ✨",
+    "download_prefix": "ダウンロード:",
+    "download_store": "App Store",
+    "download_requirement": "iOS 18.2 以降が必要"
+  },
+  "features": {
+    "messages_title": "テキストと音声メッセージ",
+    "messages_body": "ネイティブスピーカーとテキストや音声メッセージで、自分のペースでチャットしよう。",
+    "corrections_title": "添削と翻訳",
+    "corrections_body": "インラインの添削と即時翻訳で、お互いの上達を助け合えます。",
+    "phone_left_label": "世界中の人々とつながろう",
+    "phone_right_label": "自然にどんな言語も練習しよう"
+  },
+  "stats": {
+    "users": "ユーザー",
+    "messages": "メッセージ",
+    "countries": "国"
+  },
+  "footer": {
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "faq": "よくある質問"
+  },
+  "language_switcher": {
+    "label": "言語を選択"
+  },
+  "english_only_notice": "このページは現在英語のみご利用いただけます。"
+}

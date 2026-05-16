@@ -1,5 +1,6 @@
 <template>
   <div class="px-4 py-8 max-w-3xl mx-auto">
+    <p v-if="!isEnglish" class="text-sm text-gray-500 italic mb-4">{{ $t('english_only_notice') }}</p>
     <h1 class="text-3xl font-bold text-gray-900 mb-8">Terms of Service</h1>
     <div class="prose prose-gray">
       <p class="text-gray-600 mb-6">Last updated: February 2025</p>
@@ -28,3 +29,9 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { computed } from 'vue'
+const { locale } = useI18n()
+const isEnglish = computed(() => locale.value === 'en')
+</script>

@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge_ios": "Available for iPhone",
+    "badge_android": "Coming soon to Android",
+    "headline_meet": "Meet",
+    "headline_real_people": "real people",
+    "headline_around": "around the 🌍",
+    "headline_practice": "and practice",
+    "headline_any_language": "any language",
+    "subhead": "Connect with native speakers, exchange text and audio messages 💬, and help each other learn with corrections and translations ✨",
+    "download_prefix": "Download on the",
+    "download_store": "App Store",
+    "download_requirement": "iOS 18.2 or later"
+  },
+  "features": {
+    "messages_title": "Text & Audio Messages",
+    "messages_body": "Chat with native speakers through text or voice messages at your own pace.",
+    "corrections_title": "Corrections & Translations",
+    "corrections_body": "Help each other improve with inline corrections and instant translations.",
+    "phone_left_label": "Connect with people around the world",
+    "phone_right_label": "Practice any language naturally"
+  },
+  "stats": {
+    "users": "Users",
+    "messages": "Messages",
+    "countries": "Countries"
+  },
+  "footer": {
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "faq": "FAQ"
+  },
+  "language_switcher": {
+    "label": "Select language"
+  },
+  "english_only_notice": "This page is currently only available in English."
+}

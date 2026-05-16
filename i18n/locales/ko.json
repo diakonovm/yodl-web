@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge_ios": "iPhone에서 사용 가능",
+    "badge_android": "Android 곧 출시 예정",
+    "headline_meet": "만나보세요,",
+    "headline_real_people": "진짜 사람들",
+    "headline_around": "🌍 곳곳의",
+    "headline_practice": "그리고 연습하세요,",
+    "headline_any_language": "어떤 언어든",
+    "subhead": "원어민과 연결하고, 텍스트와 음성 메시지를 주고받으며 💬, 교정과 번역으로 서로 배워보세요 ✨",
+    "download_prefix": "다운로드 위치",
+    "download_store": "App Store",
+    "download_requirement": "iOS 18.2 이상 필요"
+  },
+  "features": {
+    "messages_title": "텍스트 및 음성 메시지",
+    "messages_body": "원어민과 텍스트 또는 음성 메시지로 자신의 속도에 맞게 대화하세요.",
+    "corrections_title": "교정 및 번역",
+    "corrections_body": "인라인 교정과 즉시 번역으로 서로의 실력을 함께 키워보세요.",
+    "phone_left_label": "세계 곳곳의 사람들과 연결하세요",
+    "phone_right_label": "어떤 언어든 자연스럽게 연습하세요"
+  },
+  "stats": {
+    "users": "사용자",
+    "messages": "메시지",
+    "countries": "국가"
+  },
+  "footer": {
+    "terms": "서비스 약관",
+    "privacy": "개인정보 처리방침",
+    "faq": "자주 묻는 질문"
+  },
+  "language_switcher": {
+    "label": "언어 선택"
+  },
+  "english_only_notice": "이 페이지는 현재 영어로만 제공됩니다."
+}

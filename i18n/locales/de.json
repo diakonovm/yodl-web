@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge_ios": "Verfügbar für iPhone",
+    "badge_android": "Bald für Android",
+    "headline_meet": "Triff",
+    "headline_real_people": "echte Menschen",
+    "headline_around": "rund um die 🌍",
+    "headline_practice": "und lerne",
+    "headline_any_language": "jede Sprache",
+    "subhead": "Knüpfe Kontakte zu Muttersprachlern, tausche Text- und Sprachnachrichten aus 💬, und helft euch beim Lernen mit Korrekturen und Übersetzungen ✨",
+    "download_prefix": "Laden im",
+    "download_store": "App Store",
+    "download_requirement": "iOS 18.2 oder neuer"
+  },
+  "features": {
+    "messages_title": "Text- und Sprachnachrichten",
+    "messages_body": "Chatte mit Muttersprachlern per Text- oder Sprachnachricht in deinem eigenen Tempo.",
+    "corrections_title": "Korrekturen und Übersetzungen",
+    "corrections_body": "Helft einander, besser zu werden – mit Inline-Korrekturen und sofortigen Übersetzungen.",
+    "phone_left_label": "Verbinde dich mit Menschen weltweit",
+    "phone_right_label": "Lerne jede Sprache ganz natürlich"
+  },
+  "stats": {
+    "users": "Nutzer",
+    "messages": "Nachrichten",
+    "countries": "Länder"
+  },
+  "footer": {
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzerklärung",
+    "faq": "FAQ"
+  },
+  "language_switcher": {
+    "label": "Sprache wählen"
+  },
+  "english_only_notice": "Diese Seite ist derzeit nur auf Englisch verfügbar."
+}

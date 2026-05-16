@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge_ios": "Disponível para iPhone",
+    "badge_android": "Em breve no Android",
+    "headline_meet": "Conheça",
+    "headline_real_people": "pessoas reais",
+    "headline_around": "ao redor do 🌍",
+    "headline_practice": "e pratique",
+    "headline_any_language": "qualquer idioma",
+    "subhead": "Conecte-se com falantes nativos, troque mensagens de texto e áudio 💬, e ajudem uns aos outros a aprender com correções e traduções ✨",
+    "download_prefix": "Baixar na",
+    "download_store": "App Store",
+    "download_requirement": "iOS 18.2 ou posterior"
+  },
+  "features": {
+    "messages_title": "Mensagens de texto e áudio",
+    "messages_body": "Converse com falantes nativos por mensagens de texto ou voz, no seu próprio ritmo.",
+    "corrections_title": "Correções e traduções",
+    "corrections_body": "Ajudem-se a melhorar com correções no texto e traduções instantâneas.",
+    "phone_left_label": "Conecte-se com pessoas do mundo todo",
+    "phone_right_label": "Pratique qualquer idioma de forma natural"
+  },
+  "stats": {
+    "users": "Usuários",
+    "messages": "Mensagens",
+    "countries": "Países"
+  },
+  "footer": {
+    "terms": "Termos de serviço",
+    "privacy": "Política de privacidade",
+    "faq": "Perguntas frequentes"
+  },
+  "language_switcher": {
+    "label": "Selecionar idioma"
+  },
+  "english_only_notice": "Esta página está disponível apenas em inglês no momento."
+}

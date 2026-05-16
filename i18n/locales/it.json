@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge_ios": "Disponibile per iPhone",
+    "badge_android": "Presto su Android",
+    "headline_meet": "Incontra",
+    "headline_real_people": "persone vere",
+    "headline_around": "in tutto il 🌍",
+    "headline_practice": "e pratica",
+    "headline_any_language": "qualsiasi lingua",
+    "subhead": "Connettiti con madrelingua, scambia messaggi di testo e audio 💬, e aiutatevi a imparare con correzioni e traduzioni ✨",
+    "download_prefix": "Scarica su",
+    "download_store": "App Store",
+    "download_requirement": "iOS 18.2 o successivo"
+  },
+  "features": {
+    "messages_title": "Messaggi di testo e audio",
+    "messages_body": "Chatta con madrelingua tramite messaggi di testo o vocali, al tuo ritmo.",
+    "corrections_title": "Correzioni e traduzioni",
+    "corrections_body": "Aiutatevi a migliorare con correzioni in linea e traduzioni istantanee.",
+    "phone_left_label": "Connettiti con persone di tutto il mondo",
+    "phone_right_label": "Pratica qualsiasi lingua in modo naturale"
+  },
+  "stats": {
+    "users": "Utenti",
+    "messages": "Messaggi",
+    "countries": "Paesi"
+  },
+  "footer": {
+    "terms": "Termini di servizio",
+    "privacy": "Informativa sulla privacy",
+    "faq": "Domande frequenti"
+  },
+  "language_switcher": {
+    "label": "Seleziona lingua"
+  },
+  "english_only_notice": "Questa pagina è attualmente disponibile solo in inglese."
+}

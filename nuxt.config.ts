@@ -7,7 +7,28 @@ const SITE_OG_IMAGE = `${SITE_URL}/og-image.png`
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+  i18n: {
+    strategy: 'prefix_except_default',
+    defaultLocale: 'en',
+    lazy: true,
+    locales: [
+      { code: 'en',    language: 'en-US', name: 'English',    nativeName: 'English',   file: 'en.json',    flag: '🇺🇸' },
+      { code: 'es',    language: 'es-ES', name: 'Spanish',    nativeName: 'Español',   file: 'es.json',    flag: '🇪🇸' },
+      { code: 'zh-CN', language: 'zh-CN', name: 'Chinese',    nativeName: '中文',       file: 'zh-CN.json', flag: '🇨🇳' },
+      { code: 'fr',    language: 'fr-FR', name: 'French',     nativeName: 'Français',  file: 'fr.json',    flag: '🇫🇷' },
+      { code: 'de',    language: 'de-DE', name: 'German',     nativeName: 'Deutsch',   file: 'de.json',    flag: '🇩🇪' },
+      { code: 'it',    language: 'it-IT', name: 'Italian',    nativeName: 'Italiano',  file: 'it.json',    flag: '🇮🇹' },
+      { code: 'pt-BR', language: 'pt-BR', name: 'Portuguese', nativeName: 'Português', file: 'pt-BR.json', flag: '🇧🇷' },
+      { code: 'ja',    language: 'ja-JP', name: 'Japanese',   nativeName: '日本語',     file: 'ja.json',    flag: '🇯🇵' },
+      { code: 'ko',    language: 'ko-KR', name: 'Korean',     nativeName: '한국어',     file: 'ko.json',    flag: '🇰🇷' }
+    ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'yodl_locale',
+      redirectOn: 'root'
+    }
+  },
   app: {
     head: {
       title: SITE_NAME,

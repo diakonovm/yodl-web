@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge_ios": "iPhone 版现已上线",
+    "badge_android": "Android 即将推出",
+    "headline_meet": "结识",
+    "headline_real_people": "真实的人",
+    "headline_around": "来自 🌍 各地",
+    "headline_practice": "练习",
+    "headline_any_language": "任何语言",
+    "subhead": "与母语者交流，发送文字和语音消息 💬，通过纠正和翻译互相学习 ✨",
+    "download_prefix": "下载于",
+    "download_store": "App Store",
+    "download_requirement": "需要 iOS 18.2 或更高版本"
+  },
+  "features": {
+    "messages_title": "文字与语音消息",
+    "messages_body": "通过文字或语音消息与母语者交流,按自己的节奏学习。",
+    "corrections_title": "纠正与翻译",
+    "corrections_body": "通过即时纠正和翻译,互相帮助进步。",
+    "phone_left_label": "与世界各地的人交流",
+    "phone_right_label": "自然地练习任何语言"
+  },
+  "stats": {
+    "users": "用户",
+    "messages": "消息",
+    "countries": "国家"
+  },
+  "footer": {
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "faq": "常见问题"
+  },
+  "language_switcher": {
+    "label": "选择语言"
+  },
+  "english_only_notice": "此页面目前仅提供英文版本。"
+}
