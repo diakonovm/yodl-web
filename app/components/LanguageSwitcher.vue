@@ -5,11 +5,11 @@
       @click="isOpen = !isOpen"
       :aria-label="$t('language_switcher.label')"
       :aria-expanded="isOpen"
-      class="inline-flex items-center gap-2 px-3 py-2 rounded-full border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-colors text-sm font-medium text-gray-900"
+      class="inline-flex items-center gap-2 px-2 sm:px-3 py-2 rounded-full border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-colors text-sm font-medium text-gray-900"
     >
       <span class="text-lg leading-none">{{ currentLocale?.flag }}</span>
-      <span>{{ currentLocale?.nativeName }}</span>
-      <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <span class="hidden sm:inline">{{ currentLocale?.nativeName }}</span>
+      <svg class="hidden sm:block w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
       </svg>
     </button>
