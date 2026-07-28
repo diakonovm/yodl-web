@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: SITE_NAME,
+      title: `${SITE_NAME} — Language Exchange App`,
       htmlAttrs: { lang: 'en' },
       meta: [
         { name: 'description', content: SITE_DESCRIPTION },

@@ -19,14 +19,14 @@
       </div>
 
       <!-- Headline -->
-      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-12">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-12">
         <!-- Mobile -->
         <span class="block md:hidden">{{ $t('hero.headline_meet') }} <span class="highlight">{{ $t('hero.headline_real_people') }}<span class="highlight-bg"></span></span></span>
         <span class="block md:hidden">{{ $t('hero.headline_around') }} {{ $t('hero.headline_practice') }} <span class="marker text-primary">{{ $t('hero.headline_any_language') }}<span class="marker-line"></span></span></span>
         <!-- Desktop -->
         <span class="hidden md:block">{{ $t('hero.headline_meet') }} <span class="highlight">{{ $t('hero.headline_real_people') }}<span class="highlight-bg"></span></span> {{ $t('hero.headline_around') }}</span>
         <span class="hidden md:block">{{ $t('hero.headline_practice') }} <span class="marker text-primary">{{ $t('hero.headline_any_language') }}<span class="marker-line"></span></span></span>
-      </h2>
+      </h1>
       <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
         {{ $t('hero.subhead') }}
       </p>
