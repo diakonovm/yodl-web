@@ -3,29 +3,44 @@
     <p v-if="!isEnglish" class="text-sm text-gray-500 italic mb-4">{{ $t('english_only_notice') }}</p>
     <h1 class="text-3xl font-bold text-gray-900 mb-8">Terms of Service</h1>
     <div class="prose prose-gray">
-      <p class="text-gray-600 mb-6">Last updated: February 2025</p>
+      <p class="text-gray-600 mb-6">Last updated: July 2026</p>
 
       <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">1. Acceptance of Terms</h2>
-      <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <p class="text-gray-600 mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      <p class="text-gray-600 mb-4">These Terms of Service ("Terms") govern your use of the Yodl mobile application and website (the "Service"), operated by Yodl ("we", "us"). By creating an account or using the Service you agree to these Terms and to our <NuxtLink to="/privacy" class="text-primary hover:underline">Privacy Policy</NuxtLink>. If you do not agree, do not use the Service.</p>
 
-      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">2. User Responsibilities</h2>
-      <p class="text-gray-600 mb-4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
-      <p class="text-gray-600 mb-4">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">2. Eligibility and Your Account</h2>
+      <p class="text-gray-600 mb-4">You must be at least 18 years old to use Yodl. You are responsible for the accuracy of the information on your profile and for all activity on your account. You may sign in with email, Google, or Apple; keep access to that sign-in method secure. Notify us immediately if you believe your account has been compromised.</p>
 
-      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">3. Content Guidelines</h2>
-      <p class="text-gray-600 mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-      <p class="text-gray-600 mb-4">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">3. Community Rules and Content Guidelines</h2>
+      <p class="text-gray-600 mb-4">Yodl is for meeting people and practicing languages. You agree not to use the Service to: harass, threaten, or abuse others; send spam or unsolicited promotion; impersonate any person; share sexually explicit, violent, or hateful content; solicit money from other users; violate any law; or attempt to access other users' accounts or our systems without authorization.</p>
+      <p class="text-gray-600 mb-4">You can report or block any user directly in the app. We may remove content and suspend or terminate accounts that violate these rules, at our discretion and without prior notice.</p>
 
-      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">4. Intellectual Property</h2>
-      <p class="text-gray-600 mb-4">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">4. Your Content</h2>
+      <p class="text-gray-600 mb-4">You retain ownership of the content you create on Yodl (messages, photos, voice recordings, and posts). You grant us a limited, worldwide, royalty-free license to host, store, transmit, and display that content solely to operate and provide the Service. This license ends when the content or your account is deleted, except that messages you have sent to other users remain part of those users' conversations, and except where retention is required by law.</p>
 
-      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">5. Limitation of Liability</h2>
-      <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p class="text-gray-600 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">5. Subscriptions and Payments</h2>
+      <p class="text-gray-600 mb-4">Yodl offers optional paid subscriptions that unlock premium features. Subscriptions are purchased through Apple and are subject to Apple's payment terms. They renew automatically unless cancelled at least 24 hours before the end of the current period; you can manage or cancel them in your App Store account settings. Refunds are handled by Apple in accordance with their policies. We may change subscription pricing or features with notice; changes apply from your next billing period.</p>
 
-      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">6. Changes to Terms</h2>
-      <p class="text-gray-600 mb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">6. Intellectual Property</h2>
+      <p class="text-gray-600 mb-4">The Service — including its design, branding, and software — is owned by us or our licensors and protected by intellectual-property laws. We grant you a personal, non-exclusive, non-transferable license to use the app on your devices for personal, non-commercial use. You may not copy, modify, reverse engineer, or redistribute the Service except as permitted by law.</p>
+
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">7. Disclaimers</h2>
+      <p class="text-gray-600 mb-4">The Service is provided "as is" and "as available", without warranties of any kind, express or implied. Yodl connects you with real people; we do not vet users and are not responsible for their conduct, online or offline. Use good judgment when interacting with people you meet on the Service. Translations and language corrections are provided for learning purposes and may contain errors.</p>
+
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">8. Limitation of Liability</h2>
+      <p class="text-gray-600 mb-4">To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential, or punitive damages, or for loss of data, arising from your use of the Service. Our total liability for any claim relating to the Service is limited to the greater of the amount you paid us in the twelve months before the claim or fifty (50) US dollars. Nothing in these Terms limits liability that cannot be limited by law.</p>
+
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">9. Termination</h2>
+      <p class="text-gray-600 mb-4">You may stop using the Service and delete your account at any time from the app's account settings. We may suspend or terminate your access if you violate these Terms or if required to protect the Service or its users. Sections 4, 6, 7, 8, and 10 survive termination.</p>
+
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">10. Governing Law</h2>
+      <p class="text-gray-600 mb-4">These Terms are governed by the laws of the jurisdiction in which Yodl is established, without regard to conflict-of-law rules. Disputes will be resolved in the courts of that jurisdiction, unless mandatory consumer-protection law in your country of residence provides otherwise.</p>
+
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">11. Changes to These Terms</h2>
+      <p class="text-gray-600 mb-4">We may update these Terms from time to time. We'll post the updated version here and update the date above; for material changes we'll notify you in the app. Continued use of the Service after changes take effect constitutes acceptance.</p>
+
+      <h2 class="text-xl font-semibold text-gray-900 mt-8 mb-4">12. Contact</h2>
+      <p class="text-gray-600 mb-4">Questions about these Terms? Contact us at <a href="mailto:humans@yodl.chat" class="text-primary hover:underline">humans@yodl.chat</a>.</p>
     </div>
   </div>
 </template>
