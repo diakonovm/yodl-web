@@ -33,5 +33,9 @@
   "language_switcher": {
     "label": "Seleccionar idioma"
   },
-  "english_only_notice": "Esta página solo está disponible en inglés por ahora."
+  "english_only_notice": "Esta página solo está disponible en inglés por ahora.",
+  "about": {
+    "title": "¿Qué es Yodl?",
+    "body": "Yodl es una app gratuita de intercambio de idiomas para iPhone. Te conecta con hablantes nativos de todo el mundo para que practiques cualquier idioma con conversaciones reales: mensajes de texto y de voz, traducciones instantáneas y correcciones integradas en cada chat."
+  }
 }
